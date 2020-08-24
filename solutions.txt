@@ -187,7 +187,20 @@ Exercise 15:
   - Hint: Be sure to declare and initialize the total variable before the iterations.
 */
 
+/*
+Exercise 15:
+  - Given the above numArrays array, use nested forEach methods to sum up all the numbers contained within numArrays and assign to a variable named total.
+  - Hint: Be sure to declare and initialize the total variable before the iterations.
+*/
+
 // Complete Exercise 15 below...
+var total = 0;
+numArrays.forEach((eachArray)=>{
+eachArray.forEach((eachValue)=>{
+total += eachValue
+});
+})
+
 
 
 console.log('Exercise 15 Result:\n', total);
